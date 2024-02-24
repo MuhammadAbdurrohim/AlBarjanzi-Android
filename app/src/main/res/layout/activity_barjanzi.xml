@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BDB81"
+    tools:context=".Barjanzi"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alhamdu Qowiyyul Gholib"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+اَلْحَمْدُ لِلّٰهِ الْقَوِيِّ الْغَالِبْ ۞ اَلْوَلِيِّ الطَّالِبِ ۞ اَلْبَاعِثِ الْوَارِثِ الْمَانِحِ السَّالِبِ ۞ عَالِمِ الْكَآئِنِ وَالْبَآئِنِ وَالزَّآئِلِ وَالذَّاهِبِ ۞ يُسَبِّحُهُ اْلأَٓفِلُ وَالْمَآئِلُ وَالطَّالِعُ وَالْغَارِبُ ۞ وَيُوَحِّدُهُ النَّاطِقُ وَالصَّامِتُ وَالْجَامِدُ وَالذَّآئِبُ ۞ يَضْـرِبُ بِعَدْلِهِ السَّاكِنُ وَيَسْكُنُ بِفَضْلِهِ الضَّارِبُ ۞ (لَآإِلٰهَ إِلاَّ اللهُ) ۞ حَكِيْمٌ أَظْهَرَ بَدِيْعَ حِكَمِهٖ وَالْعَجَآئِبِ ۞ فِيْ تَرْتِيْبِ تَرْكِيْبِ هٰذِهِ الْقَوَالِبِ ۞ خَلَقَ مُخًّا وَعَظْمًا وَعَضُدًا وَعُرُوْقًا وَلَحْمًا وَجِلْدًا وَشَعْرًا بِنَظْمٍ مُؤْتَلِفٍ مُتَرَاكِبٍ ۞ مِنْ مَآءٍ دَافِقٍ يَخْرُجُ مِنْ بَيْنِ الصُّلْبِ وَالتَّرَآئِبِ ۞ (لَآإِلٰهَ إِلاَّ اللهُ) ۞ كَرِيْمٌ بَسَطَ لِخَلْقِهٖ بِسَاطَ كَرَمِهٖ وَالْمَوَاهِبِ ۞ يَنْزِلُ فِيْ كُلِّ لَيْلَةٍ اِلٰى سَمَآءِ الدُّنْيَا وَيُنَادِيْ هَلْ مِنْ مُسْتَغْفِرٍ هَلْ مِنْ تَآئِبٍ ۞ هَلْ مِنْ طَالِبِ حَاجَةٍ فَأُنِيْلَهُ الْمَطَالِبَ ۞ فَلَوْ رَأَيْتَ الْخُدَّامَ قِيَامًا عَلىٰ اْلأَقْدَامِ وَقَدْ جَادُوْا بِالدُّمُوْعِ السَّوَاكِبِ ۞ وَالْقَوْمَ بَيْنَ نَادِمٍ وَتَآئِبٍ ۞ وَخَآئِفٍ لِنَفْسِهٖ يُعَاتِبُ ۞ وَآبِقٍ مِنَ الذُّنُوْبِ إِلَيْهِ هَارِبٍ ۞ فَلاَ يَزَالُوْنَ فِي اْلإِسْتِغْفَارِ حَتَّى يَكُفَّ كَفُّ النَّهَارِ ذُيُوْلَ الْغَيَاهِبِ ۞ فَيَعُوْدُوْنَ وَقَدْ فَازُوْا بِالْمَطْلُوْبِ وَأَدْرَكُوْا رِضَا الْمَحْبُوْبِ وَلَمْ يَعُدْ أَحَدٌ مِنَ الْقَوْمِ وَهُوَ خَآئِبٌ ۞ (لَآإِلٰهَ إِلاَّ أللهُ) ۞ فَسُبْحَانَهٗ وَتَعَالىٰ مِنْ مَلِكٍ أَوْجَدَ نُوْرَ نَبِيِّهٖ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ مِنْ نُوْرِهٖ قَبْلَ أَنْ يَخْلُقَ اٰدَمَ مِنَ الطَّيْنِ اللاَّزِبِ ۞ وَعَرَضَ فَخْرَهٗ عَلىٰ الْأَشْيَآءِ وَقَالَ هٰذَا سَيِّدُ الْأَنْبِيَآءِ وَأَجَلُّ الْأَصْفِيَآءِ وَأَكْرَمُ الْحَبَآئِبِ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu2"
+                android:layout_below="@+id/cardAlhamdu"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qilahuwa Adam"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu2"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+قِيْلَ هُوَ أَدَمُ، قَالَ أَدَمُ بِهِ أُنِيْلُهُ أَعْلَى الْمَرَاتِبِ. قِيْلَ هُوَ نُوْحٌ، قَالَ نُوْحٌ بِهِ يَنْجُوْ مِنَ الْغَرَقِ وَيَهْلِكُ مَنْ خَالَفَهُ مِنَ الْأَهْلِ وَالْأَقَارِبِ. قِيْلَ هُوَ إِبْرَاهِيْمُ، قَالَ إِبْرَاهِيْمُ بِهِ تَقُوْمُ حُجَّتُهُ عَلَى عُبَّادِ اْلأَصْنَامِ وَالْكَوَاكِبِ. قِيْلَ هُوَ مُوْسَى، قَالَ مُوْسَى أَخُوْهُ وَلَكِنْ هَذَا حَبِيْبٌ وَمُوْسَى كَلِيْمٌ وَمُخَاطِبٌ. قِيْلَ هُوَ عِيْسَى، قَالَ عِيْسَى يُبَشِّرُ بِهِ وَهُوَ بَيْنَ يَدَيْ نُبُوَّتِهِ كَالْحَاجِبْ. قِيْلَ فَمَنْ هَذَا الْحَبِيْبُ الْكَرِيْمُ الَّذِيْ اَلْبَسْتَهُ حُلَّةَ الْوَقَارِ، وَتَوَّجْتَهُ بِتِيْجَانِ الْمَهَابَةِ وَالْإِفْتِخًارِ، وَنَشَرْتَ عَلَى رَأْسِهِ الْعَصَائِبْ. قَالَ هُوَ نَبِيُّ نِاسْتَخْرَجْتُهُ مِنْ لُؤَيِّ ابْنِ غَالِبْ. يَمُوْتُ أَبُوْهُ وَأُمُّهُ وَيْكْفُلُهُ جَدُّهُ ثُمَّ عَمُّهُ الشَّقِيْقُ أَبُوْ طَالِبْ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu3"
+                android:layout_below="@+id/cardAlhamdu2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yuba astu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu3"
+                        android:layout_marginTop="-1dp"
+                        android:text="
+
+
+اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+يُبْعَثُ مِنْ تِهَامَةَ بَيْنَ يَدَيِ الْقِيَامَةِ ۞ فِيْ ظَهْرِهٖ عَلاَمَةٌ تُظِلُّهُ الْغَمَامَةُ ۞ تُطِيْعُهُ السَّحَآئِبُ ۞ فَجْرِيُّ الْجَبِيْنِ لَيْلِيُّ الذَّوَآئِبِ ۞ أَلْفِـيُّ الْأَنْفِ مِيْمِـيُّ الْفَمِ نُوْنِيُّ الْحَاجِبِ ۞ سَمْعُهٗ يَسْمَعُ صَرِيْرَ الْقَلَمِ بَصَرُهٗ اِلٰى السَّبْعِ الطِّبَاقِ ثَاقِبٌ ۞ قَدَمَاهٗ قَبَّلَهُمَا الْبَعِيْرُ ۞ فَأَزَالاَمَا اشْتَكَاهُ مِنَ الْمِحَنِ وَالنَّوَآئِبِ ۞ اٰمَنَ بِهِ الضَّبُّ وَسَلَّمَتْ عَلَيْهِ الْأَشْجَارُ وَخَاطَبَتْهُ الْأَحْجَارُ ۞ وَحَنَّ إِلَيْهِ الْجِذْعُ حَنِيْنَ حَزِيْنٍ نَادِبٍ ۞ يَدَاهُ تَظْهَرُ بَرَكَتُهُمَا فِي الْمَطَاعِمِ وَالْمَشَارِبِ ۞ قَلْبُهٗ لاَيَغْفُلُ وَلاَ يَنَامُ وَلٰكِنْ لِلْخِدْمَةِ عَلىٰ الدَّوَامِ مُرَاقِبٌ ۞ إِنْ أُوْذِيَ يَعْفُ وَلاَيُعَاقِبُ ۞ وَإِنْ خُوْصِمَ يَصْمُتْ وَلاَيُجَاوِبُ ۞ أَرْفَعُهٗ إِلىٰ أَشْرَفِ الْمَرَاتِبِ ۞ فِي رَكْبَةٍ لاَتَنْبَغِـيْ قَبْلَهٗ وَلاَبَعْدَهٗ لِرَاكِبٍ ۞ فِيْ مَوْكِبٍ مِنَ الْمَلَآئِكَةِ يَفُوْقُ عَلىٰ سَآئِرِ الْمَوَاكِبِ ۞ فَإِذَا ارْتَقىٰ عَلىٰ الْكَوْنَيْنِ وَانْفَصَلَ عَنِ الْعَالَمَيْنِ ۞ وَوَصَلَ إِلىٰ قَابِ قَوْسَيْنِ كُنْتُ لَهٗ اَنَا النَّدِيْمَ وَالْمُخَاطِبَ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu4"
+                android:layout_below="@+id/cardAlhamdu3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tsumma arodu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu4"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+ثُمَّ أَرُدُّهٗ مِنَ الْعَرْشِ ۞ قَبْلَ أَنْ يَّبْرُدَ الْفَرْشُ ۞ وَقَدْ نَالَ جَمِيْعَ الْمَاٰرِبِ ۞ فَإِذَا شُرِّفَتْ طُرْبَةَ طَيْبَةَ مِنْهُ بِأَشْرَفِ قَالَبٍ ۞ سَعَتْ إِلَيْهِ أَرْوَاحُ الْمُحِبِّيْنَ عَلىٰ الْأَقْدَامِ وَالنَّجَآئِبِ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu5"
+                android:layout_below="@+id/cardAlhamdu4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sholatullahima Lahats Alkawakib"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu5"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+صَلاَةُ اللهِ مَالاَحَــــــتْ كَوَاكِبْ - عَلىٰ احْمَدْ خَيْرِ مَنْ رَّكِبَ النَّجَآئِبْ
+حَدٰى حَادِى السُّرٰى بِاسْمِ الْحَبَائِبْ - فَهَزَّالشُّكْرُاَعْـــــــــطَافَ الرَّكَائِبْ
+اَلَمْ تَرَهَا وَقَدْ مَــــدَّتْ حُـــــطَاهَا - وَسَالَتْ مِنْ مَّدَامِعِـــــهَا سَحَآئِبْ
+وَمَالَتْ لِلْـــــحِمٰى طَرَبًا وَحَنَّتْ - إِلٰى تِلْكَ الْمَعَالِمِ وَ اْلمَــــــــلاَعِبْ
+فَدَعْ جَذْبَ الزِّمَامِ وَلَا تَسُــــقْهَا - فَقَائِدُ شَــــــوْقِهَا لِلْــــحَيِّ جَاذِبْ
+فَهِمْ طَــــــرَبًا كَمَا هَــــامَــــتْ وَاِلاَّ - فَإِنَّكَ فِى طَـــرِيقِ الْحُـــبِّ كَاذِبْ
+اَمَّا هٰذَا الْعَقِيْــــــــقُ بَدَا وَهٰذِيْ - قِبَابُ الْحَيِّ لاَحَتْ وَالْمَــضَارِبْ
+وَتِلْكَ الْقُبَّةُ الْخَـــــــــــضْرَا وَفِيْهَا - نَبِـــــيٌّ نُوْرُهٗ يَجْـــلُوْ الْغَـــــــيَاهِبْ
+وَقَــــدْ صَحَّ الرِّضَى وَدَنَا التَّلَاقِي - وَقَدْجَاءَ الْهَنَا مِنْ كُلِّ جَـــــــانِبْ
+فَقُلْ لِّلنَّفْسِ دُوْنَكِ وَالتَّمَــــــــلِّى - فَمَادُوْنَ الْحَبِيْبِ الْيَوْمَ حَــــاجِبْ
+تَمَلَّى بِالْحَبِيْبِ بِكُلِّ قَصْــــــــــدٍ - فَقَدْحَصَلَ الْهَنَا وَالضِـــــدُّ غَائِبْ
+نَبِيُّ اللهِ خَيْرُ الْخَلْقِ جَمْـــــــــــعَا - لَهٗ أَعْلَى الْمَنَاصِــــبِ وَالْمَــــرَاتِبْ
+لَهُ الْجَاهُ الرَّفِيْــــعُ لَهُ الْمَعَــــــــالِى - لَهُ الشَّرَفُ الْمَــؤَبَّدُ وَالْمَنَـــــاقِبْ
+فَـــــــــلَوْ أَنَّا سَعَيْنَــا كُلَّ يَــــــوْمٍ - عَلىٰ اْلاَحْدَاقِ لاَفَوْقَ النَّجَــــائِبْ
+وَلَوْ أَنَّا عَمِلْـــــنَا كُلَّ حِــــــــــيْنٍ - لِأَحْمَـــــدَ مَوْلِداً قَــدْ كَانَ وَاجِبْ
+عَلَيْــــهِ مِنَ الْمُــــهَيْـمِنِ كُلَّ وَقْتٍ - صَلاَةٌ مَّا بَدَا نُـــــوْرُ الْكَـــوَاكِبْ
+تَعُــــــــمُّ اْلاٰلَ وَالْأَصْحَــــابَ طُرًّا - جَمِـــــــــــــيْعَهُمْ وَعِتْرَتَهُ الْأَطَايِبْ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu6"
+                android:layout_below="@+id/cardAlhamdu5"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fasubhanaman Khoshuhu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu6"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+فَسُبْحَانَ مَنْ خَصَّهٗ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِأَشْرَفِ الْمَنَاصِبِ وَالْمَرَاتِبِ ۞ أَحْمَدُهٗ عَلىٰ مَا مَنَحَ مِنَ الْمَوَاهِبِ ۞ وَأَشْهَدُ أَنْ لَآإِلٰهَ إِلاَّ اللهُ وَحْدَهٗ لاَشَرِيْكَ لَهٗ رَبُّ الْمَشَارِقِ وَالْمَغَارِبْ ۞ وَأَشْهَدُ أَنَّ سَيِّدَنَا مُحَمَّدًا عَبْدُهٗ وَرَسُوْلُهُ الْمَبْعُوْثُ إِلٰى سَآئِرِ الْأَعَاجِمِ وَالْأَعَارِبِ ۞ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَعَلىٰ اٰلِهٖ وَأَصْحَابِهٖ أُوْلِى الْمَآَثِرِ وَالْمَنَاقِبِ ۞ صَلاَةً وَسَلاَمًا دَآئِمَيْنِ مُتَلاَزِمَيْنِ يَاتِيْ قَآئِلُهُمَا يَوْمَ الْقِيَامَةِ غَيْرَ خَآئِبِ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu7"
+                android:layout_below="@+id/cardAlhamdu6"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Awwalu ma nastaftihu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu7"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+أَوَّلُ مَا نَسْتَفْتِحُ بِـإِيْرَادِ حَدِيْثَيْنِ وَرَدَا عَنْ نَبِيٍّ كَانَ قَدْرُهٗ عَظِيْمًا ۞ وَنَسَبُهٗ كَرِيْمًا ۞ وَصِرَاطُهٗ مُسْتَقِيْمًا ۞ قَالَ فِيْ حَقِّهٖ مَنْ لَّمْ يَزَلْ سَمِيْعًا عَلِيْمًا ۞ إِنَّ اللهَ وَمَلَآئِكَتَهٗ يُصَلُّوْنَ عَلىٰ النَّبِيِّ ۞ يَآأَيُّهَا الَّذِيْنَ اٰمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوْا تَسْلِيْمًا
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardAlhamdu8"
+            android:layout_below="@+id/cardAlhamdu7"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#F7F7F7"
+            android:clickable="true"
+            android:padding="14dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+
+                <TextView
+                    android:id="@+id/titleQowiyyu8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Al Haditsu awwal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtArab8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleQowiyyu8"
+                    android:layout_marginTop="-1dp"
+                    android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+اَلْحَدِيْثُ الْأَوَّلُ) عَنْ بَحْرِ الْعِلْمِ الدَّافِقِ ۞ وَلِسَانِ الْقُرْآَنِ النَّاطِقِ ۞ أَوْحَدِ عُلَمَآءِ النَّاسِ ۞ سَيِّدِنَا عَبْدِ اللهِ بْنِ سَيِّدِنَا الْعَبَّاسِ ۞ رَضِيَ اللهُ عَنْهُمَا اَنَّ رَسُوْلَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَنَّهٗ قَالَ : إِنَّ قُرَيْشًا كَانَتْ نُوْرًا بَيْنَ يَدَيِ اللهِ عَزَّ وَجَلَّ قَبْلَ أَنْ يَّخْلُقَ اٰدَمَ بِأَلْفَيْ عَامٍ يُسَبِّحُ اللهَ ذٰلِكَ النُّوْرُ وَتُسَبِّحُ الْمَلَآئِكَةُ بِتَسْبِيْحِهٖ ۞ فَلَمَّا خَلَقَ اللهُ اٰدَمَ أَوْدَعَ ذٰلِكَ النُّوْرَ فِيْ طِيْنَتِهٖ ۞ قَالَ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ : فَأَهْبَطَنِيَ اللهُ عَزَّ وَجَلَّ اِلٰى الْأَرْضِ فِيْ ظَهْرِ اٰدَمَ ۞ وَحَمَلَنِيْ فِي السَّفِيْنَةِ فِيْ صُلْبِ نُوْحٍ وَّجَعَلَنِيْ فِيْ صُلْبِ الْخَلِيْلِ إِبْرَاهِيْمَ حِيْنَ قُذِفَ بِهٖ فِي النَّارِ ۞ وَلَمْ يَزَلِ اللهُ عَزَّ وَجَلَّ يُنَقِّلُنِيْ مِنَ الْأَصْلاَبِ الطَّاهِرَةِ ۞ اِلٰى اْلأَرْحَامِ الزَّكِيَّةِ الْفَاخِرَةِ ۞ حَتّٰى أَخْرَجَنِيَ اللهُ مِنْ بَيْنِ أَبَوَيَّ وَهُمَا لَمْ يَلْتَقِيَا عَلىٰ سِفَاحٍ قَطُّ
+"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu9"
+                android:layout_below="@+id/cardAlhamdu8"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Al Haditsu tsani"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu9"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+اَلْحَدِيْثُ الثَّانِيُّ) عَنْ عَطَاءِ بْنِ يَسَارٍ ۞ عَنْ كَعْبِ الْأَحْبَارِ ۞ قَالَ : عَلَّمَنِيْ أَبِىْ التَّوْرَاةَ اِلاَّ سِفْرًا وَاحِدًا كَانَ يَخْتِمُهٗ وَيُدْخِلُهُ الصُّنْدُوْقَ ۞ فَلَمَّا مَاتَ أَبِىْ فَتَحْتُهٗ فَإِذًا فِيْهِ نَبِيٌّ يَخْرُجُ اٰخِرَ الزَّمَانِ ۞ مَوْلِدُهٗ بِمَكَّةَ ۞ وَهِجْرَتُهٗ بِالْمَدِيْنَةِ ۞ وَسُلْطَانُهٗ بِالشَّامِ ۞ يَقُصُّ شَعْرَهٗ وَيَتَّزِرُ عَلىٰ وَسَطِهِ ۞  يَكُوْنُ خَيْرَ اْلأَنْبِيَآءِ وَأُمَّتُهٗ خَيْرَ الْأُمَمِ ۞ يُكَّبِرُوْنَ اللهَ تَعَالٰى عَلىٰ كُلِّ شَرَفٍ ۞ يَصُفُّوْنَ فِي الصَّلاَةِ كَصُفُوْفِهِمْ فِي الْقِتَالِ ۞ قُلُوْبُهُمْ مَصَاحِفُهُمْ يَحْمَدُوْنَ اللهَ تَعَالىٰ عَلىٰ كُلِّ شِدَّةٍ وَّرَخَآءٍ ۞ ثُلُثٌ يَّدْخُلُوْنَ الْجَنَّةَ بِغَيْرِ حِسَابٍ ۞ وَثُلُثٌ يَّأْتُوْنَ بِذُنُوْبِهِمْ وَخَطَايَاهُمْ فَيُغْفَرُلَهُمْ ۞ وَثُلُثٌ يَّأْتُوْنَ بِذُنُوْبٍ وَخَطَايَا عِظَامٍ ۞ فَيَقُوْلُ اللهُ تَعَالىٰ لِلْمَلَآئِكَةِ ٱذْهَبُوْا وَزِنُوْهُمْ فَيَقُوْلُوْنَ يَارَبَّنَا وَجَدْنَاهُمْ اَسْرَفُوْا عَلىٰ اَنْفُسِهِمْ وَوَجَدْنَا أَعْمَالَهُمْ مِّنَ الذُّنُوْبِ كَأَمْثَالِ الْجِبَالِ ۞ غَيْرَ أَنَّهُمْ يَشْهَدُوْنَ أَنْ لَآإِلٰهَ إِلاَّ اللهُ ۞ وَأَنَّ مُحَمَّدًا رَّسُوْلُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu10"
+                android:layout_below="@+id/cardAlhamdu9"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fayaqulul Haqqu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu10"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+فَيَقُوْلُ الْحَقُّ وَعِزَّتِيْ وَجَلاَلِيْ ۞ لاَجَعَلْتُ مَنْ أَخْلَصَ لِيْ بِالشَّهَادَةِ كَمَنْ كَذَّبَ بِيْ ۞ اَدْخِلُوْهُمُ الْجَنَّةَ بِرَحْمَتِيْ ۞ يَاأَعَزَّ جَوَاهِرِ الْعُقُوْدِ ۞ وَخُلاَصَةَ إِكْسِيْرِ سِرِّ الْوُجُوْدِ ۞ مَادِحُكَ قَاصِرٌ وَّلَوْ جَآءَ بِبَذْلِ الْمَجْهُوْدِ ۞ وَوَاصِفُكَ عَاجِزٌ عَنْ حَصْرِ مَا حَوَيْتَ مِنْ خِصَالِ الْكَرَمِ وَالْجُوْدِ ۞ اَلْكَوْنُ إِشَارَةٌ وَأَنْتَ الْمَقْصُوْدُ ۞ يَاأَشْرَفَ مَنْ نَالَ الْمَقَامَ الْمَحْمُوْدَ ۞ وَجَآءَتْ رُسُلٌ مِنْ قَبْلِكَ لٰكِنَّهُمْ بِالرِّفْعَةِ وَالْعُلاَلَكَ شُهُوْدٌ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu11"
+                android:layout_below="@+id/cardAlhamdu10"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ahdhiru qulubakum"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu11"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+أَحْضِرُوْا قُلُوْبَكُمْ يَامَعْشَرَ ذَوِي الْأَلْبَابِ ۞ حَتَّى أَجْلُوَلَكُمْ عَرَآئِسَ مَعَانِي أَجَلِّ الْأَحْبَابِ ۞ اَلْمَخْصُوْصِ بِأَشْرَفِ الْأَلْقَابِ ۞ اَلرَّاقِيْ إِلٰى حَضْــرَةِ الْمَلَكِ الْوَهَّابِ ۞ حَتَّى نَظَرَ إِلٰى جَمَالِهٖ بِلاَ سِتْرٍ وَّلاَ حِجَابٍ ۞ فَلَمَّا اٰنَ أَوَانُ ظُهُوْرِ شَمْسِ الرِّسَالَةِ ۞ فِيْ سَمَآءِ الْجَلاَلَةِ ۞ خَرَجَ بِهِ مَرْسُوْمُ الْجَلِيْلِ ۞ لِنَقِيْبِ الْمَمْلَكَةِ جِبْرِيْلَ ۞ يَاجِبْرِيْلُ نَادِ فِيْ سَآئِرِ الْمَخْلُوْقَاتِ ۞ مِنْ أَهْلِ الْأَرْضِ وَالسَّمٰوَاتِ ۞ بِالتَّهَانِيْ وَالْبِشَارَاتِ ۞ فَإِنَّ النُّوْرَ الْمَصُوْنَ ۞ وَالسِّـرَّ الْمَكْنُوْنَ ۞ اَلَّذِيْ أَوْجَدْتُهٗ قَبْلَ وُجُوْدِ اْلأَشْيَآءِ ۞ وَإِبْدَاعِ الْأَرْضِ وَالسَّمَآءِ ۞ أَنْقُلُهٗ فِي هٰذِهِ اللَّيْلَةِ إِلٰى بَطْنِ أُمِّهٖ مَسْــرُوْرًا ۞ أَمْلاَءُ بِهِ الْكَوْنَ نُوْرًا ۞ وَاَكْفُلُهٗ يَتِيْمًا وَأُطَهِّرُهٗ وَأَهْلَ بَيْتِهٖ تَطْهِيْرًا
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlhamdu12"
+                android:layout_below="@+id/cardAlhamdu11"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleQowiyyu12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fahtazzul arsyu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleQowiyyu12"
+                        android:layout_marginTop="-1dp"
+                        android:text="اَللّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+فَاهْتَزَّ الْعَرْشُ طَرَبًا وَاسْتِبْشَارًا ۞ وَازْدَادَ الْكُرْسِيُّ هَيْبَةً وَوَقَارًا ۞ وَامْتَلَأَتِ السَّمٰوَاتُ أَنْوَارًا ۞ وَضَجَّتِ الْمَلَآئِكَةُ تَهْلِيْلًا وَتَمْجِيْدًا وَاسْتِغْفَارًا ۩ سُبْحَانَ الله وَالْحَمْدُ ِللهِ وَلَآإِلٰهَ إِلاَّ اللهُ وَاللهُ أَكْبَرْ 3× ۩ وَلَمْ تَزَلْ أُمُّهٗ تَرٰى أَنْوَاعًا مِنْ فَخْرِهِ وَفَضْلِهِ ۞ إِلىٰ نِهَايَةِ تَمَامِ حَمْلِهِ ۞ فَلَمَّا اشْتَدَّ بِهَا الطَّلْقُ ۞ بِـإِذْنِ رَبِّ الْخَلْقِ ۞ وَضَعَتِ الْحَبِيْبَ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ ۞ سَاجِدًا شَاكِـرًا حَامِدًا كَأَنَّهُ الْبَدْرُ فِيْ تَمَامِهِ
+"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BDB81"
+    tools:context=".BacaanMaulid"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDoa"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleDoa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ya Rabbi Shalli"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleDoa"
+                        android:text="يَارَبِّ صَلِّ عَلىٰ مُحَمَّدْ ○ يَارَبِّ صَلِّ عَلَيْهِ وَسَلِّمْ  * يَارَبِّ بَلِّغْهُ الْوَسِيْلَةْ ○ يَارَبِّ خُصَّهُ بِالْفَضِيْلَةْ  * يَارَبِّ وَارْضَ عَنِ الصَّحَابَةْ ○ يَارَبِّ وَارْضَ عَنِ السُّلاَلَةْ  * يَارَبِّ وَرْاضَ عَنِ الْمَشَايِخْ ○ يَارَبِّ وَارْحَمْ وَالِدِيْنَا  * يَارَبِّ وَارْحَمْنَا جَمِيْعًا ○ يَارَبِّ وَارْحَمْ كُلَّ مُسْلِمْ  * يَارَبِّ وَاغْفِرْ لِكُلِّ مُذْنِبْ ○ يَارَبِّ لاَ تَقْطَعْ رَجَانَا  * يَارَبِّ يَا سَامِعْ دُعَانَا ○يَارَبِّ بَلِّغْنَا نَزُوْرُهْ  * يَارَبِّ تَغْشَانَا بِنُوْرِهْ ○ يَارَبِّ خِفْظَانَكْ وَاَمَانَكْ  * يَارَبِّ وَاسْكِنَّا جِنَانَكْ ○ يَارَبِّ اَجِرْنَا مِنْ عَذَابِكْ  * يَارَبِّ وَارْزُقْنَا الشَّهَادَةْ ○ يَارَبِّ حِطْنَا بِالسَّعَادَةْ  * يَارَبِّ وَاصْلِحْ كُلَّ مُصْلِحْ ○ يَارَبِّ وَاكْفِ كُلَّ مُؤْذِيْ  * يَارَبِّ نَخْتِمْ بِالْمُشَفَّعْ ○ يَارَبِّ صَلِّ عَلَيْهِ وَسَلِّمْ"
+                        android:textColor="@color/black" />
+                    
+                    <TextView
+                        android:id="@+id/txtLatin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtArab"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="Ya robbi shalli ‘ala Muhammad # Ya robbi shalli ‘alayhi wasallim
+“Wahai Tuhanku, limpahkanlah rohmat ta’dhim kepada Nabi Muhammad # Wahai Tuhanku, limpahkanlah rohmat ta’dhim kepadanya dan juga kesejahteraan”
+Ya robbi balllighul wasiilah # Ya robbi khusshoh bilfadliilah
+“Wahai Tuhanku, sampaikanlah kepadanya perantara (doa washilah ini) # Wahai Tuhanku, istimewakan dia dengan keutamaan”
+Ya robbi wardlo ‘anisshohaabah # Ya robbi wardlo ‘anis-sulaalah
+“Wahai Tuhanku, berilah ridlo kepada para sahabat # Wahai Tuhanku, berilah ridlo kepada keturunan Nabi SAW”
+Ya robbi wardlo anil-masyaayikh # Ya robbi farham waalidiinaa
+“Wahai Tuhanku, berilah ridlo kepada para masyayikh (para syekh atau para kyai) # Wahai Tuhanku, lalu kasihanilah orangtua kami”
+Ya robbi warhamnaa jamii’an # Ya robbi warham kulla muslim
+“Wahai Tuhanku, kasihanilah kami semua # Wahi Tuhanku, dan kasihanilah seluruh orang islam”.
+Ya robbi waghfir likulli mudznib Ya robbi laa taqtho’ rojaanaa
+“Wahai Tuhanku, dan ampuni setiap orang yang berbuat dosa # Wahai Tuhanku, jangalah Engkau memutuskan harapan kami“
+Ya robbi yaa saami’ du’aanaa # Ya robbi ballighnaa nazuuruh
+“Wahai Tuhanku, dan ampuni setiap orang yang berbuat dosa # Wahai Tuhanku, jangalah Engkau memutuskan harapan kami”
+Ya robbi taghsyaanaa binuurih # Ya robbi hifdhoonaka wa amaanak
+“Wahai Tuhanku, tutupilah (sinarilah) kami dengan cahaya Nabi SAW # Wahai Tuhanku, berilah kami penjagaan dan keamanan-Mu”.
+Ya robbi waskinnaa jinaanak # Ya robbi ajirnaa min ‘adzaabik
+“Wahai Tuhanku, tempatkanlah kami di dalam surga-surga-Mu # Wahai Tuhanku, selamatkanlah kami dari siksa-Mu”
+
+Ya robbi warzuqnaasysyahaadah # Ya robbi hithnaa bissa’aadah
+“Wahai Tuhanku, anugerahi kami untuk bisa menyaksikan-Mu # Wahai Tuhanku, liputilah kami dengan kebahagiaan (di sisi-Mu)”
+Ya robbi washlih kulla mushlih # Ya robbi wakfi kulla mu,dzii
+“Wahai Tuhanku, balaslah kebaikan setiap orang yang berbuat kebaikan # Wahai Tuhanku, cukupkanlah (lindungi kami) dari orang yang menyakiti”
+Ya robbi nakhtim bilmusyaffa’ # Ya robbi shalli ‘alaihi wa sallim
+“Wahai Tuhanku, kami mengakhiri (syair ini) dengan perantara orang yang memberi syafa’at (Nabi SAW) # Wahai Tuhanku, limpahkanlah rohmat ta’dhim kepadanya dan kesejahteraan”.
+"/>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDoa2"
+                android:layout_below="@id/cardDoa"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleDoa2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Laqodja Akum"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleDoa2"
+                        android:layout_marginTop="-1dp"
+                        android:text="للّٰهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ
+اِنَّا فَتَحْنَا لَكَ فَتْحًا مُبِيْنَا ۞ لِيَغْفِرَ لَكَ اللهُ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهٗ عَلَيْكَ وَيَهْدِيَكَ صِرَاطاً مُسْتَقِيْماَ ۞ وَيَنْصُـرَكَ اللهُ نَـصْرًا عَزِيْزًا ۞ لَقَدْ جَآءَكُمْ رَسُوْلٌ مِنْ أَنْفُسِكُمْ عَزِيْزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيْصٌ عَلَيْكُمْ بِالْمُؤْمِنِيْنَ رَؤٗفٌ رَّحِيْمٌ ۞ فَاِنْ تَوَلَّوْا فَقُلْ حَسْبِيَ اللهُ لَآاِلٰهَ اِلاَّ هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ ۞ إِنَّ اللهَ وَمَلَآئِكَتَهٗ يُصَلُّوْنَ عَلىٰ النَّبِيِّ ۞ يَآأَيُّهَا الَّذِيْنَ آَمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوْا تَسْلِيْمًا"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDoa3"
+                android:layout_below="@id/cardDoa2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titleDoa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ya Rasulullah"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleDoa3"
+                        android:layout_marginTop="-1dp"
+                        android:text="يَارَسُوْلَ اللهِ سَلَامٌ عَلَيْك۰ يَارَفِيْعَ اْلشَّانِ وَاْلدَّرَجِ  *  عَطْفَةً يَاجِيْرَةَ اْلعَلَمِ ۰ يَاأُهَيْلَ اْلجُوْدِ وَاْلكَرَمِ * نَحْنُ جِيْرَانٌ بِذَا اْلحَرَمِ ۰ حَرَمِ اْلِإحْسَانِ وَاْلحَسَنِ * نَحْنُ مِنْ قَوْمٍ بِهٖ سَگنُوْا ۰ وَبِهٖ مِنْ خَوْفِهِمْ آمِنُوْا * وَبِأٰياَتِ اْلقُرْآَنِ عُنُوْا ۰ فَاتَّـئِدْ فِيْنَا أَخَا اْلوَهَنِ * نَعْرِفُ اْلبَطْحَا وَتَعْرِفُنَا ۰ وَالصَّفَا وَاْلبَيْتُ يَأْلَفُنَا * وَلَنَا اْلمَعْلَی وَخَيْفُ مِنَا ۰ فَاعْلَمَنْ هٰذَا وَکُنْ زَکِنِ * وَلَنَا خَيْرُ اْلأَنَامِ أَبُ ۰ وَعَلِيُّ اْلمُرْتَضَی حَسَبُ * وَإلىَ اْلسِّبْطَيْنِ نَنتَسِبُ ۰ نَسَبًا مَافِيْهِ مِنْ دَخَنِ * كَمْ إِمَامٍ بَعْدَهُ خَلَفُوْا ۰ مِنْهُ سَادَةٌ بِذَاعُرِفُوْا * وَبِهَذَاالْوَصْفِ قَدْ وُصِفُوْا ۰ مِنْ قَدِيْمِ اْلدَّهْرِ وَاْلزَّمَنِ * مِثْلُ زَيْنِ اْلعَابِدِيْنَ عَلِيْ ۰ وَابْنِهِ اْلبَاقِرِخَيْرِ وَلِيْ * وَالْإِمَامِ الصَّادِقِ الْحَفِلِ ۰ وَعَلِيٍّ ذِي الْعُلَى الْيَقِنِ * فَهُمُ الْقَوْمُ الَّذِيْنَ هُدُوْا ۰ وَبِفَضْلِ اللّٰهِ قَدْسَعِدُوْا * وَلِغَيْرِاللّٰهِ مَاقَصَدُوْا ۰ وَمَعَ الْقُرْآنِ فِيْ قَرَنِ * أَهْلُ بَيْتِ الْمُصْطَفَى الطُّهُرِ ۰ هُمْ أَمَانُ الْأَرْضِ فَادَّكِرِ * شُبِِّهُوْا بِالْأَنْجُمِ الزُّهُرِ ۰ مِثْلَ مَا قَدْجَاءَ فِي السُّنَنِ * وَسَفِيْنٌ لِلنَّجَاةِ إِذَا ۰ خِفْتَ مِنْ طُوْفَانِ كُلِِّ أَذَاى * فَانْجُ فِيْهَا لَاتَكُوْنُ كَذَا ۰ وَاعْتَصِمْ بِاللهِ وَاسْتَعِنِ * رَبِّ فَانْفَعْنَا بِبَرْگتِهِمْ ۰ وَاهْدِنَااْلحُسْنَی بِحُرْمَتِهِمْ * وَأُمِتْنَا فِی طَرِيْقَتِهِمْ ۰ وَمُعَافَاةٍ مِنَ الْفِتَنِ "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtLatin4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtArab3"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="Yâ Rosûlallâh salâmun ‘alaik, yâ rofî’asy-syâni waddaroji
+‘Athfatan yâ jîrotal ‘alami, yâ uhailal jûdi wal karomi
+Nahnu jîrônu bidzâl haromi, haromil ihsâni wal has ani
+Nahnu min qoumin bihî sakanû, wa bihî min khoufihim âminû
+Wa bi âyâtil qur-ãni ‘unû, fatta-id fînâ akhôl wahani
+Na’riful bath-hâ wa ta’rifunâ, wash-shofâ wal baitu ya,lafunâ
+Wa lanâl Ma’lâ wa khoifu minâ, fa’laman hâdzâ wakun zakini
+Wa lanâ khoirul anâmi abu, wa ‘Aliyyul murtadlô hasabu
+Wa ilâs-sibthoini nantasibu, nasabân mâ fîhi min dakhuni
+Kam imâmin ba’dahu kholafû, minhu Sâdâtun bidzâ ‘urifû
+Wa bihâdzâl washfi qod wushifû, min qodîmid-dahri wazzamani
+Mitslu Zainil ‘Âbidîna ‘Alî, wabnihil-Bâqiri khoiri walî
+Wal imâmish-Shôdiqil hafili, wa ‘Aliyyin dzîl ‘ulâl yaqini
+Fahumul qoumulladzîna hudû, wa bifadl-lillâhi qod sa’idû
+Wa lighoirillâhi mâ qoshodû, wa ma’al qur-ãni fî qoroni
+Ahlu baitil Mushthofâth-thuhuri, hum amânul ardli faddakiri
+Syubbihû bil anjumiz-zuhuri, mitsla mâ qod jâ,a fîs-sunani
+Wa safînun linnajâti idzâ khifta min thûfâni kulli addza
+Fanju fiha la takunu kadza, wa’tashim billahi wasta’ini
+Robbi fanfa’na bibarkatihim wahdinal husna bi hurmatihim
+Wa amitna fi thoriqotihim, wa mu’afatin minal fitani
+
+"/>
+                    <TextView
+                        android:id="@+id/txtArti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtLatin4"
+                        android:text="Wahai utusan Allah, semoga keselamatan tetap padamu, Wahai yang berbudi luhur dan bermartabat tinggi
+
+Rasa kasihmu wahai pemimpin tetangga, Wahai ahli dermawan dan pemurah hati
+Kami tetangga di tanah haram ini. Tanah haram tempat berbuat baik dan memberi kebaikan
+
+Kami dari kaum yang tinggal di tempat itu. Tempat yang mereka merasa aman dari ketakutan
+Dengan ayat-ayat Al-Qu’an mereka mendapat inayah. Renungkanlah di hati kita, wahai yang berjiwa lemah
+
+Kami mengenal padang pasir dan ia mengenal kami, Bukit Shafa dan Baitil-Haram menawan hati kami
+Kami punya Ma’la dan masjid Kha’if di kota Mina. Ketahuilah ini, beradalah dan beribadahlah di sana
+
+Kami mempunyai ayah sebaik-baik makhluk. Dan adalah keturunan Ali yang diridhai
+Kepada kedua cucunya kami berketurunan, Keturunan suci bersih dari kotoran
+
+Banyak Imam yang menggantikan sesudahnya, dengan gelar Sayyid mereka dikenal
+Dengan gelar itu benar-benar mereka disebut. Dari sepanjang tahun dan zaman
+
+Seperti Zainal Abidin yakni Ali, dan putranya Baqir itu sebaik-baiknya wali
+Dan Imam Ja’far Ash-Shodiq yang penuh keberkahan. Dan Ali yang mempunyai ketinggian dan keyakinan
+
+Merekalah kaum yang memperoleh hidayah. Dan dengan karunia Allah mereka benar-benar bahagia
+Kepada selain Allah mereka tak bertujuan. Dan beserta Al-Quran mereka berpegangan.
+
+Ahli rumah nabi pilihan yang disucikan. Mereka itu pengaman bumi, maka ingatlah
+Mereka itu bagaikan bintang gemerlapan. Perumpamaan itu telah benar-benar datang di dalam hadits Nabi
+
+Dan bagaikan bahtera penyelamat ketika engkau takut dari topan badai segala duka
+Maka selamatlah engkau di dalamnya tiada khawatir lagi. Dan berpegang teguhlah kepada Allah serta mohonlah pertolongan.
+
+Ya Allah, dengan barokah mereka, berila kami kemanfaatan. Dan dengan kehormatan mereka, tunjukkan kami kepada kebaikan
+Dan wafatkanlah kami di jalan mereka, dan selamat dari segala fitnah
+"
+                        android:textColor="@color/black"/>
+
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

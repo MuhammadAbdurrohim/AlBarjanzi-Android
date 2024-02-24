@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BDB81"
+    tools:context=".Qiyam"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+
+
+                    <TextView
+                        android:id="@+id/txtArab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الْجَـنَّةُ وَنَعِيْمُهَا سَعْدٌ لِّمَنْ يُصَـلِّى وَيُسَـلِّمُ وَيُبَارِكْ عَلَيْهِ
+
+بِسْـمِ اللهِ الرَّحْمنِ الرَّحِـيْمِ
+
+أَبْتَـدِئُ ألإمْلاَءَ بِاسْمِ الذَّاتِ العَـلِيَّةِ ۞ مُسْـتَدِرًّا فَيْضَ البَرَكَاتِ عَلَى مَا اَنَا لَه وَاَوْلاَه ۞ وَاُثَنِّى بِحَمْدٍ مَّوَارِدُه سَائِغَـةٌ هَنِـيَّةِ ۞ مُمْتَطِأً مِّنَ الشُّكُرِ الْجَمِيلِ مَـطَايَاهُ ۞ وَاُصَلِّىْ وَاُسَلِّمُ عَلَى النُّوْرِ الْمَوْصُوْفِ بِالتَّـقَدُّمِ وَالأَوَّلِيَّةِ ۞ اَلْمُنْتَقِلِ فِى الْغُرَرِ الْكَرَيْمَةِ وَالْجِـبَاهِ ۞ وَاَسْتَمْنِحُ اللهَ تَعَالَى رِضْوَانًا يَخُصُّ الْعِتْرَةَ الطَّاهِرَةَ النَّـبَوِيَّةَ ۞ وَيَعُمُّ الصَّحَابَةَ وَالأَتْـبَاعَ وَمَنْ وَّالاَهُ ۞ وَاسْـتَجْدِيْهِ هِـدَايَةً لِّسُـلُوْكِ السُّـبُلِ الْوَضِيْحَةِ الْجَـلِيَّةِ ۞ وَحِفْظًا مِّنَ الْغَوَيَةِ فِى خِطَطِ الْخَطَإِوَخُـطَاهُ۞ وَاَنْشُرُ مِنْ قِصًّةِ الْمَوْلِدِ النَّبَوِىِّ بُرُوْدًا حِسَانًا عَبْقَرِيّـَةً ۞ نَاظِمًا مِّنَ النَّسَبِ الشَّرِيْفِ عِقْدًا تُحَلَّى الْمَسَامِحُ بِخُـلاَهُ۞ وَاَسْتَعِيْنُ بِحَوْلِ اللهِ تَعَالَى وَقُوَّتِه الْقَوِيَّةِ ۞ فَاِنَّـه لاَحَوْلَ وَلاَ قُـوَّةَ اِلاَّ بِا للهِ"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar" />
+
+                </RelativeLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu2"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar2"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu3"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="4dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar3"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu5"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu4"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar4"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu6"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu5"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar5" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu7"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu6"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar6" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu8"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu7"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar7"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu9"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/cardAbtadiu8"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:id="@+id/titlemunajat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ya Nabi salam Alaika"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtArab9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titlemunajat"
+                        android:text="مَحَالُّ الْقِيَامِ
+
+ﻳَﺎ ﻧَﺒِﻲ سَلَاﻡْ ﻋَﻠَﻴْﻚَ  #  ﻳَﺎ ﺭَﺳُﻮﻝْ سَلَاﻡْ ﻋَﻠَﻴْﻚَ
+ﻳَﺎ ﺣَﺒِﻴﺐْ سَلَاﻡْ ﻋَﻠَﻴْﻚَ #  ﺻَﻠَﻮَﺍﺕُ ﺍﻟﻠَّﻪ ﻋَﻠَﻴْﻚَ.
+ﺃَﺷﺮَﻕَ ﺍﻟﺒَﺪْﺭُ ﻋَﻠَﻴْﻨَﺎ # ﻓَﺎﺧْﺘَﻔَﺖْ ﻣِﻨْﻪُ ﺍﻟﺒُﺪُﻭْﺭُ.
+ﻣِﺜْﻞَ حُسْنِك ﻣَﺎ ﺭَﺃَﻳْﻨَﺎ # ﻗَﻂُّ ﻳَﺎ ﻭَﺟْﻪَ ﺍﻟﺴُّﺮُﻭْﺭِ
+ﺃَﻧْﺖَ ﺷَﻤْﺲٌ ﺃَﻧْﺖَ ﺑَﺪْﺭٌ # ﺃَﻧْﺖَ ﻧُﻮْﺭٌ ﻓَﻮْﻕَ ﻧُﻮْﺭٍ
+ﺃَﻧْﺖَ ﺇِﮐْﺴِﻴْﺮُ ﻭَﻏَﺎﻟِﻲ # ﺃَﻧْﺖَ ﻣِﺼْﺒَﺎﺡُ ﺍﻟﺼُّﺪُﻭْﺭِ.
+ﻳَﺎ ﺣَﺒِﻴْﺒِﯽ ﻳَﺎ ﻣُﺤَﻤَّﺪ # ﻳَﺎﻋَﺮُﻭْﺱَ ﺍﻟﺨَﺎﻓِﻘَﻴْﻦِ
+ﻳَﺎ ﻣُﺆَﻳَّﺪْ ﻳَﺎﻣُﻤَﺠَّﺪْ  #  ﻳَﺎ ﺇِﻣَﺎﻡَ ﺍﻟﻘِﺒْﻠَﺘَﻴْﻦِ
+ﻣَﻦْ ﺭَﺃَﯼ ﻭَﺟْﻬَﻚَ ﻳَﺴْﻌَﺪْ # ﻳَﺎﮔﺮِﻳْﻢَ ﺍﻟﻮَﺍﻟِﺪَﻳْﻦِ.
+ﺣَﻮْﺿُﻚَ ﺍﻟﺼَّﺎﻓِﯽ ﺍﻟﻤُﺒَﺮَّﺩْ # ﻭِﺭْﺩُﻧَﺎ ﻳَﻮْﻡَ ﺍﻟﻨُّﺸُﻮْﺭِ.
+ﻣَﺎ ﺭَﺃَﻳْﻨَﺎ ﺍﻟﻌِﻴْﺲَ ﺣَﻨَّﺖْ  #  ﺑِﺎﻟﺴُّﺮَﯼ ﺇِﻻَّ ﺇِﻟَﻴْﻚَ
+ﻭَﺍﻟﻐَﻤَﺎﻣَﻪ ﻗَﺪْ ﺃَﻇَﻠَّﺖْ  #  ﻭَﺍﻟﻤَﻼَ ﺻَﻠُّﻮﺍ ﻋَﻠَﻴْﻚَ
+ﻭَﺃَﺗَﺎﻙَ ﺍﻟﻌُﻮﺩُ ﻳَﺒْﮑِﻲ # ﻭَﺗَﺬَﻟَّﻞْ ﺑَﻴْﻦَ ﻳَﺪَﻳْﻚَ
+ﻭَﺍﺳْﺘَﺠَﺎﺭَﺕْ ﻳَﺎﺣَﺒِﻴْﺒِﻲ # ﻋِﻨْﺪَﻙَ ﺍﻟﻈَّﺒْﻲُ ﺍﻟﻨُّﻔُﻮْﺭُ.
+ﻋِﻨْﺪَﻣَﺎ ﺷَﺪُّﻭْﺍ ﺍﻟﻤَﺤَﺎﻣِﻞ  #  ﻭَﺗَﻨَﺎﺩَﻭﺍ ﻟِﻠﺮَّﺣِﻴْﻞِ
+ﺟِﺌْﺘُﻬُﻢْ ﻭَﺍﻟﺪَّﻣْﻊُ ﺳﺂﺋِﻞْ  #  ﻗُﻠْﺖُ ﻗِﻒْ ﻟِﯽ ﻳَﺎ ﺩَﻟِﻴْﻞُ
+ﻭَﺗَﺤَﻤَّﻞْ ﻟِﻲ ﺭَﺳﺂﺋِﻞْ  #  ﺃَﻳُّﻬَﺎ ﺍﻟﺸَّﻮْﻕُ ﺍﻟﺠَﺰِﻳْﻞُ
+ﻧَﺤْﻮَﻫَﺎﺗِﻴْﻚَ ﺍﻟﻤَﻨَﺎﺯِﻝِ #  ﻓِﯽ ﺍﻟﻌَﺸِﻲِّ ﻭَﺍﻟﺒُﮑُﻮْﺭِ
+ﮐُﻞُّ ﻣَﻦْ ﻓِﯽ ﺍﻟﮕﻮْﻥِ ﻫَﺎﻣُﻮﺍ  #  ﻓِﻴْﻚَ ﻳَﺎ ﺑَﺎﻫِﻲ ﺍﻟﺠَﺒِﻴْﻦِ
+ﻭَﻟَﻬُﻢْ ﻓِﻴْﻚَ ﻏَﺮَﺍﻡُ  #  ﻭَﺍﺷْﺘِﻴَﺎﻕُ ﻭَﺣَﻨِﻴْﻦُ.
+ﻓِﻲ ﻣَﻌَﺎﻧِﻴْﻚَ ﺍﻷَﻧَﺎﻡُ #  ﻗَﺪْ ﺗَﺒَﺪَّﺕْ ﺣﺂﺋِﺮِﻳْﻦَ
+وَصَلَاةُ اللَّهِ تَغْشَا  #  عَدَّ تَحْرِيْرِ السُّطُوْرِ
+أَحْمَدَ الهَادِی مُحَمَّدْ  #  صَاحِبَ الوَجْهِ المُنِيرِ
+اَنْتَ لِلرُّسُلِ خِتَامُ  #  اَنْتَ لِلْمَوْلٰى شَكُوْرُ
+عَبْدُكَ المِسْكِينُ يَرْجُو  #  فَضْلَكَ الجَمَّ الغَفِيْرَ
+فِيْكَ قَدْ اَحْسَنْتُ ظَنِّي  #  يَابَشِيْرُ يَانَذِيْرُ
+فَاَغِثْنِي وَاَجِرْنِي # يَا مُجِيْرُ مِنَ السَّعِيْرِ
+يَاغَيَاثِي يَامَلَاذِي #  فِي مُهِمَّاتِ الاُمُوْرِ
+سَعِدَ عَبْدٌ قَدْ تَمَلّٰى #  وَانْجَلٰى عَنْهُ الحَزِيْنُ
+فِيْكَ يَا بَدْرٌ تَجَلّٰي  #   فَلَكَ الوَصْفُ الحَسِيْنُ
+لَيْسَ اَزْكٰى مِنْكَ اَصْلًا #  قَطُّ يَا جَدَّ الحُسَيْنِ
+فَعَلَيْكَ اللّهُ صَلّٰى   #   دَآئِمًا طُوْلَ الدُّهُوْرِ
+يَا وَلِيَّ الحَسَنَاتِ  #  يَا رَفِيْعَ الدَّرَجَاتِ
+كَفِّرْ عَنِّيَ الذُّنُوبَ  #  وَاغْفِرْ عَنِّي السَّيِّئَات.
+اَنْتَ غَفَّارُ الخَطَيَا  #  وَالذُّنُوْبِ المُوْبِقَاتِ
+اَنْتَ سَتَّارُ المَسَاوِي #  وَمُقِيْلُ العَثَرَاتِ
+عَالِمُ السِّرِّ وَاَخْفٰى  #  مُسْتَجِيْبُ الدَّعَوَاتِ
+رَبِّ فَارْحَمْنَا جَمِيْعًا  #  بِجَمِيْعِ الصَّالِحَاتِ
+
+
+
+
+
+"
+                        android:textColor="@color/black" />
+                    
+                    <TextView
+                        android:id="@+id/txtLatin5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtArab9"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="Yaa nabii salaam ‘alaika, Yaa Rasuul salaam ‘alaika
+Yaa habiib salaam ‘alaika, sholawaatullaah ‘alaika
+Asyroqol badruu‘alainaa, fakhtafat minhul buduuru
+Mitsla husnik maa ro-ainaa, qotthu yaa wajhas-suruuri
+Anta syamsun anta badrun, anta nuurun fauqo nuurin
+Anta iksiirun wa ghaalii, anta mishbaahush-shuduuri
+Yaa habiibi yaa Muhammad, yaa ‘aruusal-khoofiqoiini
+Yaa mu-ayyad yaa mumajjad, yaa imaamal qiblataini
+Man ro-aa wajhaka yas’ad, yaa kariimal waalidaini
+Haudlukash-shoofîl mubarrod, wirdunaa yauman-nusyuuri
+Maa ro-ainaal ‘iisa hannat, bissuraa illaa ilaika
+Wal ghomaamah qod adhollat, wal malaa sholluu ‘alaika
+Wa ataakal ‘uudu yabkii, wa tadzallal baina yadaika
+Wastajaarot yaa habiibii, ‘indakadh-dhobyun-nufuuru
+Indamaa syadduul mahaamil, wa tanaadau lirrohiili
+Ji'tuhum waddam’u saail, qultu qif lii yaa daliilu
+Wa tahammal lî rosaa-il, ayyuhaasy-syauqul jaziilu
+Nahwa haatiikal manaazil, fîl ‘asyiyyi wal bukuuri
+Kullu man fîl kauni haamuu, fîka yaa baahîl jabiini
+Wa lahum fîka ghoraamun, wasytiyaaqun wa haniinu
+Fii ma’aanîkal anaamu, qod tabaddat haa-iriina
+Wa sholaatullaahi taghsyaa ‘adda tahriiris-suthuuri
+Ahmadal haadii Muhammad shoohibal wajhil muniiri
+Anta lirrusuli khitaamu anta lil maulaa syakuuru
+Abdukal miskiinu yarjuu fadlakal jammal ghofiiru
+Fiika qod ahsantu dhonnii yaa basyiiru yaa nadziiru
+Fa aghitsnii wa ajirnii yaa mujiiru minas sa'iiri
+yaa ghoyaatsii yaa malaadzii fii muhimmaatil umuuri
+Sa'da 'abdun qod tamallaa wanjalaa 'anhul haziinu
+Fiika yaa badrul tajalla falakal washful hasiinu
+Laisa azkaa minka ashlan qotthu yaa jaddal husaini
+Fa 'alaikallahu shollaa daa-iman thuulad duhuuri
+Yaa walii yal hasanaati yaa rofii'ad darojaati
+ًKaffir 'anniyadz dzunuuba waghfir 'annis sayyi-aati
+Anta ghoffaarul khothoyaa wa dzunuubil muubiqooti
+Anta sattarul masaawi wa muqiilul 'atssarooti
+'Aalimus sirri wa akhfaa mustajiibud da'awaati
+Robbi farhamnaa jamii'a bijamii'is shoolihaati
+
+"/>
+                    <TextView
+                        android:id="@+id/txtArti5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtLatin5"
+                        android:text="Wahai Nabi, salam sejahtera untukmu, Wahai Rosul salam sejahtera untukmu.
+Wahai kekasih, salam sejahtera untukmu dan Sholawat (rohmat) Allah untukmu.
+Bulan purnama telah terbit menyinari kami, Pudarlah purnama purnama lainnya.
+Belum pernah aku lihat keelokan sepertimu wahai orang yang berwajah riang.
+Engkau bagai matahari, engkau bagai bulan purnama, engkau cahaya di atas cahaya
+Engkau bagaikan emas murni yang mahal harganya, Engkaulah pelita hati.
+Wahai kekasihku, wahai Muhammad, wahai pengantin tanah timur dan barat (sedunia)
+Wahai Nabi yang dikuatkan (dengan wahyu), wahai Nabi yang diagungkan, wahai imam dua arah kiblat.
+Siapa pun yang melihat wajahmu pasti berbahagia, wahai orang yang mulia kedua orang tuanya.
+Telagamu jernih dan dingin, yang akan kami datangi kelak dihari qiyamat.
+Belum pernah unta putih berbalur hitam berdenting berjalan malam hari kecuali unta yang datang kepadamu.
+Awan tebal memayungimu, seluruh tingkat golongan manusia mengucapkan sholawat kepadamu.
+Pohon pohon datang kepadamu menangis bersimpuh merasa hina di hadapanmu.
+Kijang gesit datang memohon keselamatan kepadamu wahai kekasih.
+Ketika serombongan berkemas dan menyerukan untuk berangkat
+Kudatangi mereka dengan berlinang air mata seraya kuucapkan tunggulah wahai pemimpin rombongan
+Bawakan aku surat yang berisikan kerinduan yang mendalam
+Membawakan ke tempat yang jauh ketika petang dan paginya.
+Setiap orang di jagad raya ini bingung (karena sangat rindu) kepadamu wahai orang yang bersinar kedua keningnya.
+Mereka terpikat, tergila-gila dan meronta-ronta dengan mu tentang sifatmu.
+Para makhluk berbeda pendapat dan bingung (tidak mampu menyifati dengan sempurna)
+Dan sholawat Allah semoga tercurah
+untuk Ahmad sang petunjuk yaitu Nabi Muhammad pemilik wajah yang bersinar.
+Engkau penutup para Nabi, engkau syukur dari para hamba
+Budakmu yang miskin mengharapkan keutamaanmu yang besar
+Padamu aku bersangka baik, wahai pemberi kabar gembira, wahai pemberi peringatan
+Maka tolonglah aku, selamatkanlah aku, wahai sang penyelamat dari api neraka
+Wahai penolong, wahai pelindung dalam urusan-urusan genting
+Bahagianya hamba merasa senang, hilanglah darinya kesedihan
+Padamu nampak purnama, padamu ada sifat yang indah
+Tidak ada yang lebih bersih asalnya sama sekali dari padamu wahai kakeknya Hasan dan Husain.
+Allah haruskan sholawat untukmu selamanya sepanjang masa.
+Wahai Allah penguasa kebaikan-kebaikan, wahai Allah yang Maha tinggi kedudukannya.
+Palingkan dariku dosa, dan ampunilah keburukan-keburukanku.
+Engkau maha pengampun kesalahan-kesalahan dan dosa yang membinasakan.
+Engkau maha penutup aib-aib, dan pemaaf atas kesalahan-kesalahan.
+Engkau maha tahu yang samar dan tersembunyi, yang mengabulkan doa-doa
+Ya Allah ya tuhanku kasihilah kami semua dengan seluruh kebaikan-kebaikan.
+
+"
+                        android:textColor="@color/black"/>
+                    
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu10"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardAbtadiu9"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar8" />
+
+                </RelativeLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAbtadiu11"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardAbtadiu10"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#F7F7F7"
+                android:clickable="true"
+                android:padding="14dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="220dp"
+                        android:background="@drawable/bar9" />
+
+                </RelativeLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
